@@ -2,7 +2,7 @@ repeat
 	task.wait()
 until game:IsLoaded()
 
-local HUB_SCRIPT_ID = "9b5ab79f8007e89b695dac53c55f0904"
+local HUB_SCRIPT_ID = "72f5693f13d3d2008d69785db59bcb12"
 local HUB_DISCORD_CODE = "mAmR6kz3QH"
 local HUB_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_Key_System-FxZfyDCbapNR"
 
@@ -11,7 +11,7 @@ local KEY_FILE = KEY_FOLDER .. "/Key.txt"
 local OLD_KEY_FILE = KEY_FOLDER .. "/Settings.config"
 
 local PlaceIDs = {
-	["537413528"] = "9b5ab79f8007e89b695dac53c55f0904",
+	["537413528"] = "72f5693f13d3d2008d69785db59bcb12",
 	["76558904092080"] = "0bef79fe69ee3fe8607ff9f07f2d8def",
 }
 
