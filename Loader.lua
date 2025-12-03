@@ -11,8 +11,9 @@ local OLD_KEY_FILE = KEY_FOLDER.."/Settings.config"
 local PlaceIDs = {
 	["537413528"] = "72f5693f13d3d2008d69785db59bcb12",
 	["76558904092080"] = "0bef79fe69ee3fe8607ff9f07f2d8def",
+	["129009554587176"] = "0bef79fe69ee3fe8607ff9f07f2d8def",
 }
-local Names = { ["537413528"]="BoatBuilderHub", ["76558904092080"]="ReForge" }
+local Names = { ["537413528"]="BoatBuilderHub", ["76558904092080"]="ReForge", ["129009554587176"]="ReForge" }
 local HUB_NAME = Names[tostring(game.PlaceId)] or "BuilderHub"
 
 local ReGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Dear-ReGui/main/ReGui.lua"))()
