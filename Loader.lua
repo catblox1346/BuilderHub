@@ -249,7 +249,7 @@ rowTop:Button({
 	end,
 })
 
---[[rowTop:Button({
+rowTop:Button({
 	Text = "Get Key (Linkvertise)",
 	BackgroundColor3 = Color3.fromRGB(218, 140, 25),
 	Callback = function()
