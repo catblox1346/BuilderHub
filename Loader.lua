@@ -243,7 +243,8 @@ local rowTop = win:Row({ Expanded = false })
 
 rowTop:Button({
 	Text = "Get Key (work.ink)",
-	BackgroundColor3 = Color3.fromRGB(30, 255, 124),
+	BackgroundColor3 = Color3.fromRGB(46, 204, 113),
+	Size = UDim2.new(0.32, 0, 0, 20),
 	Callback = function()
 		setclipboard(workink_KEY_LINK)
 		setStatus("Key link copied", true)
@@ -252,7 +253,8 @@ rowTop:Button({
 
 rowTop:Button({
 	Text = "Get Key (Linkvertise)",
-	BackgroundColor3 = Color3.fromRGB(218, 140, 25),
+	BackgroundColor3 = Color3.fromRGB(255, 164, 27),
+	Size = UDim2.new(0.32, 0, 0, 20),
 	Callback = function()
 		setclipboard(linkvertise_KEY_LINK)
 		setStatus("Key link copied", true)
@@ -261,13 +263,13 @@ rowTop:Button({
 
 rowTop:Button({
 	Text = "Get Key (LootLabs)",
-	BackgroundColor3 = Color3.fromRGB(218, 140, 25),
+	BackgroundColor3 = Color3.fromRGB(255, 193, 7),
+	Size = UDim2.new(0.32, 0, 0, 20),
 	Callback = function()
 		setclipboard(lootlabs_KEY_LINK)
 		setStatus("Key link copied", true)
 	end,
-})--]]
-
+})
 
 win:Separator()
 
