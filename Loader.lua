@@ -164,7 +164,7 @@ local win = ReGui:Window({
 	Title = HUB_NAME .. " | Key System",
 	NoClose = true,
 	NoResize = true,
-	Size = UDim2.new(0, 420, 0, 320),
+	Size = UDim2.new(0, 480, 0, 320),
 }):Center()
 
 win:Label({
