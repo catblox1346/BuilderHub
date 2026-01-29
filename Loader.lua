@@ -6,7 +6,7 @@ local HUB_SCRIPT_ID = "72f5693f13d3d2008d69785db59bcb12"
 local HUB_DISCORD_CODE = "mAmR6kz3QH"
 local workink_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_Key_System-FxZfyDCbapNR"
 local linkvertise_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_Linkvertise-RMgzLzWbeeYz"
-local lootlabs_KEY_LINK = " https://ads.luarmor.net/get_key?for=BoatBuilderHub_LootLink-qaiYSvdzNiSf"
+local lootlabs_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_LootLink-qaiYSvdzNiSf"
 
 local MAIN_FOLDER = "BBuilderHub"
 local KEY_FILE = MAIN_FOLDER .. "/Key.txt"
@@ -241,7 +241,7 @@ win:Separator()
 
 local rowTop = win:Row({ Expanded = false })
 
-rowTop:Button({
+--[[rowTop:Button({
 	Text = "Get Key (work.ink)",
 	BackgroundColor3 = Color3.fromRGB(46, 204, 113),
 	Size = UDim2.new(0.32, 0, 0, 20),
@@ -249,9 +249,9 @@ rowTop:Button({
 		setclipboard(workink_KEY_LINK)
 		setStatus("Key link copied", true)
 	end,
-})
+})--]]
 
---[[rowTop:Button({
+rowTop:Button({
 	Text = "Get Key (Linkvertise)",
 	BackgroundColor3 = Color3.fromRGB(255, 164, 27),
 	Size = UDim2.new(0.32, 0, 0, 20),
