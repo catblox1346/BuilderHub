@@ -251,7 +251,7 @@ rowTop:Button({
 	end,
 })
 
-rowTop:Button({
+--[[rowTop:Button({
 	Text = "Get Key (Linkvertise)",
 	BackgroundColor3 = Color3.fromRGB(255, 164, 27),
 	Size = UDim2.new(0.32, 0, 0, 20),
@@ -259,7 +259,7 @@ rowTop:Button({
 		setclipboard(linkvertise_KEY_LINK)
 		setStatus("Key link copied", true)
 	end,
-})
+})--]]
 
 rowTop:Button({
 	Text = "Get Key (LootLabs)",
