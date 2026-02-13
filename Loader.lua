@@ -241,7 +241,7 @@ win:Separator()
 
 local rowTop = win:Row({ Expanded = false })
 
-rowTop:Button({
+--[[rowTop:Button({
 	Text = "Get Key (work.ink)",
 	BackgroundColor3 = Color3.fromRGB(46, 204, 113),
 	Size = UDim2.new(0.32, 0, 0, 20),
@@ -261,7 +261,7 @@ rowTop:Button({
 	end,
 })--]]
 
---[[rowTop:Button({
+rowTop:Button({
 	Text = "Get Key (LootLabs)",
 	BackgroundColor3 = Color3.fromRGB(255, 193, 7),
 	Size = UDim2.new(0.32, 0, 0, 20),
