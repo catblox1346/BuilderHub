@@ -241,7 +241,7 @@ win:Separator()
 
 local rowTop = win:Row({ Expanded = false })
 
---[[rowTop:Button({
+rowTop:Button({
 	Text = "Get Key (work.ink)",
 	BackgroundColor3 = Color3.fromRGB(46, 204, 113),
 	Size = UDim2.new(0.32, 0, 0, 20),
@@ -249,7 +249,7 @@ local rowTop = win:Row({ Expanded = false })
 		setclipboard(workink_KEY_LINK)
 		setStatus("Key link copied", true)
 	end,
-})--]]
+})
 
 rowTop:Button({
 	Text = "Get Key (Linkvertise)",
