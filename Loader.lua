@@ -2,6 +2,14 @@ repeat
 	task.wait()
 until game:IsLoaded()
 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "!! Warning Please Read !!";
+	Text = "The discord was hacked!!\nLeave the old discord ASAP and join the new one for updates and information.";
+	Duration = 45;
+})
+
+setclipboard("https://discord.gg/4nSEd2Pu8f")
+
 local HUB_SCRIPT_ID = "72f5693f13d3d2008d69785db59bcb12"
 local HUB_DISCORD_CODE = "mAmR6kz3QH"
 local workink_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_Key_System-FxZfyDCbapNR"
