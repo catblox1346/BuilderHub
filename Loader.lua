@@ -11,7 +11,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 setclipboard("https://discord.gg/4nSEd2Pu8f")
 
 local HUB_SCRIPT_ID = "72f5693f13d3d2008d69785db59bcb12"
-local HUB_DISCORD_CODE = "mAmR6kz3QH"
+local HUB_DISCORD_CODE = "4nSEd2Pu8f"
 local workink_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_Key_System-FxZfyDCbapNR"
 local linkvertise_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_Linkvertise-RMgzLzWbeeYz"
 local lootlabs_KEY_LINK = "https://ads.luarmor.net/get_key?for=BoatBuilderHub_LootLink-qaiYSvdzNiSf"
