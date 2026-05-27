@@ -8,6 +8,13 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Duration = 45;
 })
 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Important For Xeno/Solara Users:";
+	Text = "Join the discord for instructions to fix if the script isnt loading\nIts a common bug thats easy to fix";
+	Duration = 45;
+})
+
+
 setclipboard("https://discord.gg/4nSEd2Pu8f")
 
 local HUB_SCRIPT_ID = "72f5693f13d3d2008d69785db59bcb12"
