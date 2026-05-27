@@ -3,8 +3,8 @@ repeat
 until game:IsLoaded()
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "!! Warning Please Read !!";
-	Text = "The discord was hacked!!\nLeave the old discord ASAP and join the new one for updates and information.";
+	Title = "New Update Coming Soon Join For More Info:";
+	Text = "Discord Link: https://discord.gg/4nSEd2Pu8f (copied to clipboard)";
 	Duration = 45;
 })
 
