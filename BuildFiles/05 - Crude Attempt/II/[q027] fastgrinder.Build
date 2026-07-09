@@ -1,0 +1,9 @@
+BuilderHub_
+Join https://discord.gg/kKMmH3fyd3 to use this file
+BH2
+
+[BlocksNeeded]
+BlocksNeeded={"Total":6,"Count":6,"Blocks":{"TitaniumRod":1,"TitaniumBlock":2,"PilotSeat":1,"Hinge":1,"Magnet":1}}
+
+[Build]
+Build={"v":2,"lg":true,"b":{"TitaniumRod":[{"i":1,"p":"-58,-11.4,-20","r":"0,90,0"}],"TitaniumBlock":[{"i":2,"p":"-60.5,-7.5,-20","r":"0,90,0","sz":"2,2,2"},{"i":5,"p":"-58,-8.9,-20","r":"0,90,0","sz":"2,2,2"}],"PilotSeat":[{"i":3,"p":"-55.5,-8,-20","r":"0,-90,0"}],"Hinge":[{"i":4,"p":"-59,-7.5,-20","r":"0,90,0"}],"Magnet":[{"i":6,"p":"-52.9,-8,-20","r":"0,-90,0"}]}}
